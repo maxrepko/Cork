@@ -1,0 +1,21 @@
+Currently done:
+- Creates board
+- Pieces move around (coords follow <x,y>)
+- Verifies:
+	- Move was made by a piece, not an empty space
+	- Move is in the bounds of the board
+	- Move is allowed for that piece
+	- Move doesn't have any pieces along the way and no allied piece at
+	    the destination.
+
+-------------
+In progress:
+- Fix the pawn movement
+- King Moves
+- Check for checks and checkmates
+- Add more niche rules like move limits, castling,
+    and en passant
+
+-------------
+Needs:
+- A.I. move generation
